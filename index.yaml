@@ -1,0 +1,28 @@
+apiVersion: v1
+entries:
+  hello:
+  - apiVersion: v1
+    created: "2021-10-25T12:40:10.937640265Z"
+    description: A Helm chart for a Kubernetes app
+    digest: 61e5240755223630777ecc6bda6ed867cdd114a7e09204d0ee2f4548a5811b14
+    name: hello
+    urls:
+    - https://github.com/declan-fitzpatrick/deployments/releases/download/hello-1.0.1/hello-1.0.1.tgz
+    version: 1.0.1
+  helloworld:
+  - apiVersion: v1
+    created: "2021-10-25T12:40:11.127949623Z"
+    description: helloworld chart that runs on kubernetes
+    digest: 8855d879bf3ebbd5b9b634c963b6b615b20f2d1243af3577c099f7cbd2add9f9
+    home: https://github.com/stakater-charts/helloworld
+    keywords:
+    - helloworld
+    - kubernetes
+    maintainers:
+    - email: stakater@aurorasolutions.io
+      name: Stakater
+    name: helloworld
+    urls:
+    - https://github.com/declan-fitzpatrick/deployments/releases/download/helloworld-1.0.1/helloworld-1.0.1.tgz
+    version: 1.0.1
+generated: "2021-10-25T12:40:11.127958523Z"
