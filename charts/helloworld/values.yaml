@@ -9,4 +9,5 @@ helloworld:
     pullPolicy: IfNotPresent
   service:
     ingressClass: internal-ingress
+  port: 8080
 replicaCount: 1

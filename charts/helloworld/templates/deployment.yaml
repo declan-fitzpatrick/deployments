@@ -33,12 +33,12 @@ items:
           livenessProbe:
             initialDelaySeconds: 60
             tcpSocket:
-              port: 80
+              port: {{ .Values.helloworld.port }}
           name: helloworld
           readinessProbe:
             httpGet:
               path: /
-              port: 80
+              port: {{ .Values.helloworld.port }}
             initialDelaySeconds: 5
           securityContext:
             privileged: false
