@@ -11,6 +11,20 @@ entries:
     version: 1.0.1
   helloworld:
   - apiVersion: v1
+    created: "2022-04-19T11:40:16.599559384Z"
+    description: helloworld chart that runs on kubernetes
+    digest: ca57e2bd3c4d9920c315991a143a7f1afac3b9b5350ff73b01039dc1c033c088
+    keywords:
+    - helloworld
+    - kubernetes
+    maintainers:
+    - email: declan@test.com
+      name: declan
+    name: helloworld
+    urls:
+    - https://github.com/declan-fitzpatrick/deployments/releases/download/helloworld-1.0.3/helloworld-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v1
     created: "2021-10-25T14:09:02.536140565Z"
     description: helloworld chart that runs on kubernetes
     digest: be31efcdc5e1b773f3b7b7669529d27386947108d9db3aac3747e9182a908809
@@ -40,4 +54,4 @@ entries:
     urls:
     - https://github.com/declan-fitzpatrick/deployments/releases/download/helloworld-1.0.1/helloworld-1.0.1.tgz
     version: 1.0.1
-generated: "2021-10-25T14:09:02.536148765Z"
+generated: "2022-04-19T11:40:16.599943998Z"
